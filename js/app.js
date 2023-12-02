@@ -26,7 +26,7 @@ const sendMessage = async (e) => {
                     style="width: 48px; height: 48px"
                 />
                 <div
-                    class="chatInput fw-bold px-4 py-3 w-75 bg-light rounded-5"
+                    class=" fw-bold px-4 py-3 w-75 bg-light rounded-5"
                 >${response}</div>
             </div>
             <div class=" messageContainer w-100 d-flex gap-4 ">
