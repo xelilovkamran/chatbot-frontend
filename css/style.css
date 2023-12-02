@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@400;600&display=swap");
+
+body {
+  background-color: #f4f2ee;
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+input {
+  outline: none;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+/* HEADER */
+
+#header {
+  z-index: 100;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+input[type="search"] {
+  padding-left: 30px;
+}
+
+input[type="search"]:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #000;
+  opacity: 0.6;
+  transition: 0.5s all ease-in-out;
+}
+
+nav a:hover {
+  opacity: 1;
+}
+
+.activeNavLink {
+  border-bottom: 2px #000 solid;
+}
+
+.searchIcon {
+  transform: translate(50%, 75%);
+}
+
+.chatInput {
+  overflow: auto;
+  max-height: 100px;
+}
+
+.chatInput::-webkit-scrollbar {
+  display: none;
+}
+
+.messageContainer {
+  margin-bottom: 15px;
+}
