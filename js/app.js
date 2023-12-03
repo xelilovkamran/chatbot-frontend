@@ -1,7 +1,7 @@
 let chatInputs = document.querySelectorAll(".chatInput");
 
 const fetchResponse = async (message) => {
-  const response = await fetch("https://chatbot-665m.onrender.com/chatBot", {
+  const response = await fetch("http://localhost:3000/chatBot", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
